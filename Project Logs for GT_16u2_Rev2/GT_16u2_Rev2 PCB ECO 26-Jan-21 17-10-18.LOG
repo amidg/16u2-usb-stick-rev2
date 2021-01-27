@@ -1,0 +1,29 @@
+Removed Pin From Net: NetName=GND Pin=C2-2
+Change Component Footprint: Designator=16MHZ Old Footprint=JPY-49S-18PF New Footprint=MURA-CSTCE_V-3_V
+Change Component Comment : Designator=16MHZ Old Comment=49S/18PF New Comment=CSTCE16M0V53-R0
+Change Managed Component Library Link : Designator=16MHZ Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=E1F6B393-3CCB-4E74-9C6B-9D3A982B05C2 New ItemGUID=D4BD3D5D-5343-4E16-9D03-8CFF950A7984 Old RevisionGUID=FF23DFA6-4F24-4717-977B-929664D617A7 New RevisionGUID=F1931C15-C9EA-485F-9D9E-4BFFB0B83D81
+Change component parameters: Designator = "16MHZ" ("16MHz"); Footprint = "JPY-49S-18PF"; UniqueID = "\KNXZNPLC" ("\KNXZNPLC")
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.murata.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.murata.com/products/catalog/pdf/p16e.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DatasheetVersion"; Value = "Rev. P16E-22"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Initial Frequency Tolerance"; Value = "+/- 0.5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Initial Tolerance"; Value = "+/- 0.5%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Load Capacity"; Value = "15 pF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Murata"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Temperature Range"; Value = "-20 to 80 degC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Oscillating Frequency"; Value = "16 MHz"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageDescription"; Value = "3-Pin SMD, Body 3.2 x 1.3 mm, Pitch 0.95 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "CSTCE_V-3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packing"; Value = "Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "CSTCE16M0V53-R0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "TRUE"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=16MHZ-2
+Added Pin To Net: NetName=GND Pin=C2-1
+Added Pin To Net: NetName=Net16MHz_3 Pin=16MHZ-3
+Added Pin To Net: NetName=Net16MHz_3 Pin=C2-2
+Added Pin To Net: NetName=Net16MHz_3 Pin=U1-2
+Added Net: Name=Net16MHz_3
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component R7 1K 1% 0603

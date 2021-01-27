@@ -1,0 +1,98 @@
+Change Component Footprint: Designator=R3 Old Footprint=RESC0603(1608)_N New Footprint=RESC0603(1608)_L
+Change Component Comment : Designator=R4 Old Comment=1K 5% 0603(1608) New Comment=1K 1% 0603
+Change Component Comment : Designator=R5 Old Comment=1K 5% 0603(1608) New Comment=1K 1% 0603
+Change Component Comment : Designator=R6 Old Comment=1K 5% 0603(1608) New Comment=1K 1% 0603
+Change Component Comment : Designator=R3 Old Comment=10K 1% 0603(1608) New Comment=1K 1% 0603
+Change Managed Component Library Link : Designator=R3 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=D6FF6A2E-237B-4D32-86D1-1B9665B5CB39 New ItemGUID=77196DFD-07FC-4832-870F-46AC4696B664 Old RevisionGUID=5919DCB2-6C32-4D73-A0F5-E31FD5A5471D New RevisionGUID=05C57F62-3278-43EE-8154-3D5C75F89934
+Change component parameters: Designator = "R3" ("R3"); Footprint = "RESC0603(1608)_N"; UniqueID = "\CXTBNNWX" ("\CXTBNNWX")
+Change component parameters (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = "1000.00 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=C3(CAPC1608X90X35ML15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX Interconnect / Elco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0603YC104KAZ2A"; VariantName = "[No Variations]"
+Added Component: Designator=C4(CAPC1608X90X35ML15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX Interconnect / Elco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0603YC104KAZ2A"; VariantName = "[No Variations]"
+Added Component: Designator=C5(CAPC1608X90X35ML15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX Interconnect / Elco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0603YC104KAZ2A"; VariantName = "[No Variations]"
+Added Component: Designator=C6(CAPC1608X90X35LL15T15)
+Add component (AddParameter): Name = "Manufacturer"; Value = "AVX Interconnect / Elco"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "0603YD105KAT2A"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RESC0603(1608)_L)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000.00 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R8(RESC0603(1608)_L)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000.00 Ohm"; VariantName = "[No Variations]"
+Added Component: Designator=R9(RESC0603(1608)_L)
+Add component (AddParameter): Name = "Case-EIA"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case-Metric"; Value = "1608"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power"; Value = "0.1 W"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Technology"; Value = "SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "5 %"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "1000.00 Ohm"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C3-1
+Added Pin To Net: NetName=+5V Pin=C3-2
+Added Pin To Net: NetName=GND Pin=C4-1
+Added Pin To Net: NetName=+5V Pin=C4-2
+Added Pin To Net: NetName=GND Pin=C5-1
+Added Pin To Net: NetName=+5V Pin=C5-2
+Added Pin To Net: NetName=GND Pin=C6-1
+Added Pin To Net: NetName=+5V Pin=ISP-2
+Added Pin To Net: NetName=GND Pin=ISP-6
+Added Pin To Net: NetName=GND Pin=R9-1
+Added Pin To Net: NetName=GND Pin=RESET-1
+Added Pin To Net: NetName=GND Pin=UART-1
+Added Pin To Net: NetName=+5V Pin=UART-3
+Added Pin To Net: NetName=DTR(CTS) Pin=R9-2
+Added Pin To Net: NetName=DTR(CTS) Pin=U1-13
+Added Pin To Net: NetName=DTR(CTS) Pin=UART-6
+Added Net: Name=DTR(CTS)
+Added Pin To Net: NetName=MISO Pin=ISP-1
+Added Pin To Net: NetName=MISO Pin=U1-17
+Added Net: Name=MISO
+Added Pin To Net: NetName=MOSI Pin=ISP-4
+Added Pin To Net: NetName=MOSI Pin=U1-16
+Added Net: Name=MOSI
+Added Pin To Net: NetName=NetC6_2 Pin=C6-2
+Added Pin To Net: NetName=NetC6_2 Pin=U1-27
+Added Net: Name=NetC6_2
+Added Pin To Net: NetName=RESET Pin=ISP-5
+Added Pin To Net: NetName=RESET Pin=R3-1
+Added Pin To Net: NetName=RESET Pin=RESET-2
+Added Pin To Net: NetName=RESET Pin=U1-24
+Added Net: Name=RESET
+Added Pin To Net: NetName=RXD Pin=U1-8
+Added Pin To Net: NetName=RXD Pin=UART-5
+Added Net: Name=RXD
+Added Pin To Net: NetName=SCK Pin=ISP-3
+Added Pin To Net: NetName=SCK Pin=U1-15
+Added Net: Name=SCK
+Added Pin To Net: NetName=TXDR Pin=R7-2
+Added Pin To Net: NetName=TXDR Pin=R8-1
+Added Pin To Net: NetName=TXDR Pin=U1-9
+Added Net: Name=TXDR
+Added Pin To Net: NetName=TXD Pin=R7-1
+Added Pin To Net: NetName=TXD Pin=R8-2
+Added Pin To Net: NetName=TXD Pin=UART-4
+Added Net: Name=TXD
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component C3 100nF 16V 0603
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component C4 100nF 16V 0603
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component C5 100nF 16V 0603
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component C6 1uF 16V 0603
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component R7 1K 1% 0603
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component R8 1K 1% 0603
+Added Member To Class: ClassName=GT_16u2_Rev2 Member=Component R9 1K 1% 0603

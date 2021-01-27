@@ -54,7 +54,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=CCVEKDLM
 
 [Document2]
 DocumentPath=GT_16u2_Rev2.PcbLib
@@ -88,7 +88,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=FSXCGDHH
+DocumentUniqueId=DXYQJOGM
 
 [Document4]
 DocumentPath=GT_16u2_Rev2.SchLib

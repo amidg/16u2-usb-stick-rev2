@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=GND Pin=UART-1
+Removed Pin From Net: NetName=+5V Pin=UART-3
+Removed Pin From Net: NetName=DTR(CTS) Pin=UART-6
+Removed Member From Class: ClassName=GT_16u2_Rev2 Member=R7
+Removed Member From Class: ClassName=GT_16u2_Rev2 Member=UART

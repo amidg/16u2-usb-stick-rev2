@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=GND Pin=PWR-2
+Change Component Footprint: Designator=PWR Old Footprint=VISH-TLMX1100_V New Footprint=1206_A
+Change Component Comment : Designator=PWR Old Comment=TLMS1100-GS08 New Comment=150120BS75000
+Change Component Designator: OldDesignator=R? NewDesignator=R6
+Change Managed Component Library Link : Designator=PWR Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=1E49742B-4E3B-4A0D-A919-190BDDA81806 New ItemGUID=F5BDC95A-B73A-4D1E-9A3C-AF7B0641D4D2 Old RevisionGUID=E01B52E4-0A6A-4965-8702-3EEEF627EE7C New RevisionGUID=42845A3E-2F4B-4967-AE66-FBFE31FE987B
+Change component parameters: Designator = "PWR" ("PWR"); Footprint = "VISH-TLMX1100_V"; UniqueID = "\QPIESIRO" ("\QPIESIRO")
+Change component parameters (AddParameter): Name = "Color"; Value = "Blue"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "http://katalog.we-online.com/led/datasheet/150120BS75000.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PackageReference"; Value = "1206_A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "PartNumber"; Value = "150120BS75000"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=PWR-1
+Added Pin To Net: NetName=+5V Pin=R6-2
+Change Net Name : Old Net Name=NetRX_1 New Net Name=LED-RX
+Change Net Name : Old Net Name=NetTX_1 New Net Name=LED-TX
+Added Pin To Net: NetName=NetPWR_2 Pin=PWR-2
+Added Pin To Net: NetName=NetPWR_2 Pin=R6-1
+Added Net: Name=NetPWR_2
